@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+::selection{
+    background: #00B39B;
+    color: #fff;
+}
+
+
+/*----------------This is the nav styless---------------------*/
+.coeur-nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Nava-Bar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(254,254,253);
+    height: 110px;
+    margin-top: -43px;
+    z-index: 1000;
+    position: fixed;
+    border-bottom: 0.2px solid rgba(75, 75, 75, 0.2);
+}
+.Nava-Bar .logo img{
+    width: 260px;
+    height: 150px;
+    margin-left: 23px;
+}
+a{
+    text-decoration: none;
+}
+.Menuderoulant{
+    margin-top: 50px;
+}
+.Menuderoulant li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    color: #ABABAB;
+}
+
+.Menuderoulant li:hover .Sous-menuderoulant{
+    display: block;
+}
+
+.Menuderoulant .Sous-menuderoulant{
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: #fff;
+    margin-top: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: -106px;
+}
+.Menuderoulant .Sous-menuderoulant li{
+    padding: 9px;
+    display: block;
+    font-weight: lighter;
+}
+.Menuderoulant .Sous-menuderoulant li a{
+    display: block;
+}
+
+.Menuderoulant .Sous-menuderoulant li:hover{
+    background-color:#F0F0F0;
+}
+.Menuderoulant li a:hover{
+color:#00B39B;
+}
+
+
+
+
+/*----------------This is the part generale styless---------------------*/
+.partie-generale{
+    width: 70%;
+    margin: auto;
+  
+}
+.partie-generale img{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 9px 50%;
+ }
+
+.partie-generale h1{
+    text-align: center;
+    /* width: 70%; */
+    margin: 40px auto;
+    word-spacing: 9px;
+    color: #00B39B;
+    font-weight: lighter;
+    font-size: 33px;
+
+}
+.partie-generale .paragraphes{
+    display: flex;
+    justify-content: space-between;
+   /* text-align: right; */
+   gap: 20px;
+   line-height: 25px;
+   letter-spacing: 0.2px;
+   color: #333;
+   font-size: 16px;
+   background-color: #fff;
+}
+
+
+/*----------------This is the second section styless---------------------*/
+#Premiere-partie{
+    width: 70%;
+    margin: auto;
+    margin-top: 73px;
+    display: flex;
+    gap: 23px;
+    margin-bottom: 45px;
+}
+
+/*--------------Style OF the Partie1-------------*/
+
+.Premiere-partie{
+    width: 300px;
+    height: 330px;
+    border: 1px solid #00B39B;
+    border-radius: 12px;
+    background-color: #00B39B;
+    color: #F0F0F0;
+    padding: 23px;
+    align-content: space-between;
+    display: block;
+
+}
+.Premiere-partie:hover{
+    background-color: #1abda7;
+}
+.Premiere-partie .sous-partie1 h2{
+    margin: 15px auto;
+    font-size: 27px;
+}
+.Premiere-partie .sous-partie1 P{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Premiere-partie .seletion1{
+    margin-top: 60px;
+}
+.Premiere-partie .seletion1 select{
+    font-size: 20px;
+    border: 1px none;
+    text-decoration:underline;
+    width: auto;
+    height: 30px;
+    background-color: #00B39B;
+    color: #F0F0F0;
+}
+.Premiere-partie .seletion1 select:hover{
+    background-color: #1abda7;
+}
+.Premiere-partie .seletion1 select option{
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: -2px;
+} 
+
+
+/*--------------Style OF the Partie2-------------*/
+
+.Deuxieme-partie{
+    width: 300px;
+    height: 330px;
+    border: 1px solid #508FE2;
+    border-radius: 12px;
+    background-color:#508FE2;
+    color: #F0F0F0;
+    padding: 23px;
+    align-content: space-between;
+    display: block;
+
+}
+.Deuxieme-partie:hover{
+    background-color: #5494e7;
+}
+.Deuxieme-partie .sous-partie1 h2{
+    margin: 15px auto;
+    font-size: 27px;
+}
+.Deuxieme-partie .sous-partie1 P{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.Deuxieme-partie .seletion1{
+    margin-top: 60px;
+}
+.Deuxieme-partie .seletion1 select{
+    font-size: 20px;
+    border: 1px none;
+    text-decoration:underline;
+    width: auto;
+    height: 30px;
+    background-color: #508FE2;
+    color: #F0F0F0;
+}
+.Deuxieme-partie .seletion1 select:hover{
+    background-color: #5494e7;
+}
+.Deuxieme-partie .seletion1 select option{
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: -2px;
+} 
+
+/*--------------Style OF the Partie3-------------*/
+
+.Troisieme-partie{
+    width: 300px;
+    height: 330px;
+    border: 1px solid #222E3A;
+    border-radius: 12px;
+    background-color:#1c2630;
+    color: #F0F0F0;
+    padding: 23px;
+    align-content: space-between;
+    display: block;
+
+}
+.Troisieme-partie:hover{
+    background-color: #222E3A;
+}
+.Troisieme-partie .sous-partie1 h2{
+    margin: 15px auto;
+    font-size: 27px;
+}
+.Troisieme-partie .sous-partie1 P{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Troisieme-partie .seletion1{
+    margin-top: 40px;
+}
+.Troisieme-partie .seletion2
+{
+    margin-top: 10px;
+}
+.Troisieme-partie .seletion1 select, .Troisieme-partie .seletion2 select{
+    font-size: 18px;
+    border: 1px transparent;
+    text-decoration:underline;
+    width: auto;
+    height: 30px;
+    background-color:#1c2630;
+    color: #F0F0F0;
+}
+
+.Troisieme-partie .seletion1 select:hover, .Troisieme-partie .seletion2 select:hover{
+    background-color: #222E3A;
+}
+.Troisieme-partie .seletion1 select option, .Troisieme-partie .seletion2 select option{
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: -2px;
+} 
+
+
+
+/*----------------This is the thirst section styless---------------------*/
+#section3{
+    width: 70%;
+    margin: auto;
+    margin-top: 73px;
+    display: flex;
+    margin-bottom: 45px;
+}
+.contenu-sect3{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 23vh;
+    
+  
+}
+.materiel_list{
+           display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            
+}
+.materiel_list li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    padding: 9px;
+}
+.materiel_list li{
+    list-style-type: none;
+    
+}
+.materiel_list li a svg{
+    width: 110px;
+    
+    color: #957474;
+}
+.materiel_list li a img{
+    width: 70px;
+    height: 40px;
+    color: #957474;
+}
+.paragraph-sect3{
+    width: 400px;
+}
+.paragraph-sect3 p{
+    color: #957474;
+    font-size: 23px;
+    line-height: 35px;
+    color: #00B39B;
+}
+
+
+
+
+/*----------------This is thefourth section styless---------------------*/
+
+#section4{
+    background-color: #D5F5F6;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.contenu-sect4{
+    width: 70%;
+    margin: auto;
+    margin-top: 73px;
+    display: flex;
+    margin-bottom: 45px;
+    height: 600px;
+    justify-content: space-between;
+    gap: 90px;
+}
+.contenu-sect4 .sous-contenu1{
+    display: block;
+
+}
+.sous-contenu1 h2{
+    margin-top: 90px;
+    font-size: 30px;
+    color: #00B39B;
+    font-weight: lighter;
+}
+.sous-contenu1 p{
+    font-size: 13px;
+    line-height: 17px;
+    margin: 33px auto;
+}
+.sous-contenu1 img{
+    height: 340px;
+    background-color: #D5F5F6;
+    object-fit: cover;
+    margin-left: -100px;
+    width: 400px;
+}
+.sous-contenu2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 3px;
+    height: 260px;
+    width: 230px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+.sous-contenu2 img{
+    height: 40px;
+    width: 30px;
+}
+.sous-contenu2 h3{
+    color: #00CCB1;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 12px auto;
+}
+.sous-contenu2 p{
+    font-size: 14px;
+}
+.pour-tour{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.pourtoure1, .pourtoure2{
+    display: flex;
+    flex-direction: column;
+
+}
+.pour-tour .pourtoure2{
+    margin-top: 20px;
+}
+.pour-tour .pourtoure1{
+    margin-top: 40px;
+}
+
+
+/*----------------This is the fifth section styless---------------------*/
+
+#sectr5-Proche_end{
+    width: 100%;
+}
+.contenu_Proche_end{
+    width: 70%;
+    margin: auto;
+    margin-top: 73px;
+    display: block;
+}
+
+.partie-texte{
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.partie-texte h2{
+    font-size: 27px;
+    font-weight: lighter;
+    color: #1abda7;
+    word-spacing: 9px;
+    line-height: 40px;
+}
+.partie-texte p{
+    font-size: 15px;
+    line-height: 25px;
+    margin: 23px auto;
+}
+.partie-images{
+    margin-top: 93px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chaque-image{
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 290px;
+    cursor: pointer;
+    margin: 30px 12px;
+
+}
+.chaque-image:hover{
+    box-shadow: 0 10px 20px rgba(3, 3, 3, 0.2);
+}
+.chaque-image img{
+    border-radius: 5px;
+}
+
+.chaque-image .info_image{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.chaque-image .info_image h4{
+    color: #3a3737;
+    margin-left: 10px;
+}
+.chaque-image .info_image span a{
+    border-radius: 5px;
+    background-color: #3D83DF;
+    color: #fff;
+    height: 25px;
+    padding: 5px 6px;
+    font-size: 12px;
+    word-spacing: 12px;
+    margin-right: 10px;
+}
+.chaque-image .info_image span:hover{
+    background-color: #68a5f5;
+}
+
+/*----------------This is the last section styless---------------------*/
+
+#The-last-section{
+    margin-top: 90px;
+    width: 100%;
+}
+.container-of-the_last-sect{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.container-of-the_last-sect p{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+    margin-bottom: 30px;
+}
+.container-of-the_last-sect a{
+    border-radius: 2px;
+    background-color:  #3D83DF;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    padding: 8px;
+   word-spacing: 10px;
+   border-radius: 5px;
+   font-size: 18px;
+}
+
+
+/*----------------This is the footer styless---------------------*/
+.part-of-footer{
+    margin-top: 100px;
+    border-top: 1px solid #b6b6b6;
+    height: 90px;
+    padding: 30px;
+    
+}
+.contenu-du-footer{
+    
+width: 70%;
+margin: auto;
+align-items: center;
+text-align: center;
+}
+.contenu-du-foote p, p a{
+    
+    font-size: 13px;
+}
+.contenu-du-foote p{
+    color: #494848;
+}
+.part-of-footer P{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 12px;
+    color: #494848;
+}
